@@ -64,7 +64,7 @@
 
     <!-- filemanager -->
     <!-- change data-ota-fm-path to your server folder location -->
-    <div class="filemanager" data-ota-fm-path="/home/orhan/public_html/" data-ota-fm-height="50vh" data-ota-fm-width="80%" data-ota-fm-overflow="auto">
+    <div class="filemanager" data-ota-fm-path="/home/orhan" data-ota-fm-height="50vh" data-ota-fm-width="80%" data-ota-fm-overflow="auto">
 
     </div>
     <div class="filemanager" data-ota-fm-path="/home/orhan/public_html/news_portal/file_manager/" data-ota-fm-height="50vh" data-ota-fm-width="80%" data-ota-fm-overflow="auto">
