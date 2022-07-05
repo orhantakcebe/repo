@@ -64,7 +64,7 @@
 
     <!-- filemanager -->
     <!-- change data-ota-fm-path to your server folder location -->
-    <div class="filemanager" data-ota-fm-path="/home/orhan" data-ota-fm-height="50vh" data-ota-fm-width="80%" data-ota-fm-overflow="auto">
+    <div class="filemanager" data-ota-fm-path="/home/orhan/public_html/" data-ota-fm-height="50vh" data-ota-fm-width="80%" data-ota-fm-overflow="auto">
 
     </div>
     <div class="filemanager" data-ota-fm-path="/home/orhan/public_html/news_portal/file_manager/" data-ota-fm-height="50vh" data-ota-fm-width="80%" data-ota-fm-overflow="auto">
@@ -102,7 +102,7 @@
           let otaFMrefreshText = document.createTextNode("refresh");
 
           let refreshImg = document.createElement("img");
-          refreshImg.src = "../img/refresh.jpg";
+          refreshImg.src = "img/refresh.jpg";
           refreshImg.style.height = "1rem";
 
           otaFMrefresh.appendChild(refreshImg);
@@ -116,7 +116,7 @@
           let otaFMRenameText = document.createTextNode("rename");
 
           let renameImg = document.createElement("img");
-          renameImg.src = "../img/rename.jpg";
+          renameImg.src = "img/rename.jpg";
           renameImg.style.height = "1rem";
 
           otaFMRename.appendChild(renameImg);
@@ -130,7 +130,7 @@
           let otaFMOpenText = document.createTextNode("open");
 
           let openImg = document.createElement("img");
-          openImg.src = "../img/open.jpg";
+          openImg.src = "img/open.jpg";
           openImg.style.height = "1rem";
 
           otaFMOpen.appendChild(openImg);
